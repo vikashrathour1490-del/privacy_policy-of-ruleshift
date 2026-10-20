@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rule Shift Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #22d3ee;
+        --accent-2: #38bdf8;
+        --border: #1f2937;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: radial-gradient(circle at top, #1e293b 0%, var(--bg) 50%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #fff;
+        color: #000;
+        padding: 8px 12px;
+        border-radius: 0 0 8px 0;
+        z-index: 100;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem 1rem 4rem;
+        animation: fade-in 500ms ease;
+      }
+
+      .hero,
+      .card {
+        background: rgba(17, 24, 39, 0.86);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        backdrop-filter: blur(2px);
+      }
+
+      .hero {
+        margin-bottom: 1rem;
+      }
+
+      .brand {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+      }
+
+      .brand-mark {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 48px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.5rem, 3vw, 2rem);
+      }
+
+      .updated {
+        color: var(--muted);
+        margin: 0.25rem 0 0;
+      }
+
+      nav {
+        margin: 1rem 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        border: 1px solid #334155;
+        border-radius: 999px;
+        padding: 0.35rem 0.75rem;
+        color: var(--text);
+        font-size: 0.9rem;
+      }
+
+      nav a:hover {
+        border-color: var(--accent-2);
+      }
+
+      main {
+        display: grid;
+        gap: 1rem;
+      }
+
+      h2 {
+        margin-top: 0;
+        color: var(--accent-2);
+      }
+
+      p,
+      li {
+        color: #d1d5db;
+      }
+
+      footer {
+        margin-top: 1.25rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding: 1rem 0.75rem 2rem;
+        }
+
+        .hero,
+        .card {
+          padding: 1rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .page {
+          animation: none;
+        }
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="page">
+      <header class="hero" aria-labelledby="policy-title">
+        <div class="brand">
+          <svg
+            class="brand-mark"
+            viewBox="0 0 64 64"
+            role="img"
+            aria-label="Rule Shift logo"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#22d3ee" />
+                <stop offset="100%" stop-color="#38bdf8" />
+              </linearGradient>
+            </defs>
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0f172a" stroke="url(#g)" stroke-width="4" />
+            <path d="M20 42l11-20 7 12 6-10" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div>
+            <h1 id="policy-title">Rule Shift Privacy Policy</h1>
+            <p class="updated">Last updated: October 20, 2026</p>
+          </div>
+        </div>
+        <nav aria-label="Privacy policy sections">
+          <a href="#information-we-collect">Information We Collect</a>
+          <a href="#how-we-use-information">How We Use Information</a>
+          <a href="#sharing">Sharing</a>
+          <a href="#retention">Retention</a>
+          <a href="#rights">Your Rights</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main-content">
+        <section class="card" id="information-we-collect" aria-labelledby="collect-heading">
+          <h2 id="collect-heading">1. Information We Collect</h2>
+          <p>
+            Rule Shift may collect information you provide directly, including account details, feedback,
+            and support requests. We also collect limited technical information (such as device type,
+            browser, and app performance metrics) needed to operate and improve the service.
+          </p>
+        </section>
+
+        <section class="card" id="how-we-use-information" aria-labelledby="use-heading">
+          <h2 id="use-heading">2. How We Use Information</h2>
+          <ul>
+            <li>Provide, maintain, and improve Rule Shift services.</li>
+            <li>Personalize product experience and settings.</li>
+            <li>Respond to support requests and service communications.</li>
+            <li>Protect against abuse, fraud, and unauthorized access.</li>
+          </ul>
+        </section>
+
+        <section class="card" id="sharing" aria-labelledby="sharing-heading">
+          <h2 id="sharing-heading">3. How We Share Information</h2>
+          <p>
+            We do not sell your personal information. We share information only when required to operate
+            the service (for example, with trusted processors), to comply with legal obligations, or to
+            protect user safety and service integrity.
+          </p>
+        </section>
+
+        <section class="card" id="retention" aria-labelledby="retention-heading">
+          <h2 id="retention-heading">4. Data Retention</h2>
+          <p>
+            We retain personal information only for as long as necessary to fulfill the purposes outlined
+            in this policy, resolve disputes, enforce agreements, and satisfy legal requirements.
+          </p>
+        </section>
+
+        <section class="card" id="security" aria-labelledby="security-heading">
+          <h2 id="security-heading">5. Security</h2>
+          <p>
+            We use administrative, technical, and organizational safeguards designed to protect your
+            information. No method of storage or transmission is fully secure, so we continually review
+            and improve our controls.
+          </p>
+        </section>
+
+        <section class="card" id="children" aria-labelledby="children-heading">
+          <h2 id="children-heading">6. Children&apos;s Privacy</h2>
+          <p>
+            Rule Shift is not directed to children under 13, and we do not knowingly collect personal
+            information from children under 13. If you believe a child provided information to us, contact
+            us so we can take appropriate action.
+          </p>
+        </section>
+
+        <section class="card" id="rights" aria-labelledby="rights-heading">
+          <h2 id="rights-heading">7. Your Rights and Choices</h2>
+          <p>
+            Depending on your jurisdiction, you may have rights to access, correct, delete, or export your
+            personal information, and to object to or restrict certain processing activities.
+          </p>
+        </section>
+
+        <section class="card" id="changes" aria-labelledby="changes-heading">
+          <h2 id="changes-heading">8. Changes to This Privacy Policy</h2>
+          <p>
+            We may update this policy from time to time. We will post the revised version with an updated
+            effective date at the top of this page.
+          </p>
+        </section>
+
+        <section class="card" id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">9. Contact Us</h2>
+          <p>
+            Questions about this policy can be sent to
+            <a href="mailto:privacy@ruleshift.app">privacy@ruleshift.app</a>.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        &copy; <span id="year">2026</span> Rule Shift. All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>
